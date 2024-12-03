@@ -14,7 +14,7 @@ this app using Javascript language and the runtime using Node.js. also the frame
 and the database i used was postgresql via supabase. for the IDE i worked on visual studio code.
 
 to run this app
-1. run `npm install` on terminal, make sure that node.js and npm were installed,
+1. run `npm install` on terminal to install the packages, make sure that node.js and npm were installed,
 2. type `node app.js` to run the app
 3. access the app using browser, the app running on `localhost:2542`
 4. for email and password `email: jalu@mail.com & password:adhi123`
