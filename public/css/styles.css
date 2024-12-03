@@ -1,0 +1,93 @@
+/** @format */
+body {
+  margin: 0;
+  padding: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#map {
+  width: 100%;
+  height: 100vh;
+} 
+  .wrapper {
+    margin-top: 100px;
+    margin-bottom: auto;
+  }
+  
+  .form-signin {
+    max-width: 420px;
+    padding: 30px 38px 66px;
+    margin: 0 auto;
+    background-color: #93ff93;
+    border: 3px dotted rgba(0,0,0,0.1);
+  }
+  
+  .form-signin-heading {
+    text-align:center;
+    margin-bottom: 30px;
+  }
+  
+  .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+  }
+  
+  input[type="text"] {
+    margin-bottom: 0px;
+  }
+  
+  input[type="password"] {
+    margin-bottom: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+ 
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+/* Modal styles */
+.modal .modal-dialog {
+	max-width: 400px;
+}
+.modal .modal-header, .modal .modal-body, .modal .modal-footer {
+	padding: 20px 30px;
+}
+.modal .modal-content {
+	border-radius: 3px;
+	font-size: 14px;
+}
+.modal .modal-footer {
+	background: #ecf0f1;
+	border-radius: 0 0 3px 3px;
+}
+.modal .modal-title {
+	display: inline-block;
+}
+.modal .form-control {
+	border-radius: 2px;
+	box-shadow: none;
+	border-color: #dddddd;
+}
+.modal textarea.form-control {
+	resize: vertical;
+}
+.modal .btn {
+	border-radius: 2px;
+	min-width: 100px;
+}	
+.modal form label {
+	font-weight: normal;
+}	
+
+.modal .form-group {
+  margin-bottom: 20px;
+}
